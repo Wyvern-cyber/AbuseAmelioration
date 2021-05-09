@@ -1,0 +1,47 @@
+ h1{
+  text-align: center;
+  color:purple;
+}
+.menu a{
+margin-left: 50px;
+}
+.menu{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+ body{
+     background-color:green;
+ }
+ .header{
+     background-color: crimson;
+     display:flex;
+    justify-content: space-between;
+ } 
+ .grid{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }    
+ .icons{
+     display: flex;
+     justify-content: flex-end;
+ } 
+ h2,p{
+     text-align: center;
+ }
+ .item{
+     position: relative;
+ }
+ .item p{
+   position: absolute;  
+   top: 45%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   opacity: 0;
+ }
+ .item:hover p{
+     opacity: 1;
+ }
+ .item:hover img{
+     opacity: 0.33;
+ }
